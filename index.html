@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>メイクリ｜オンライン特化型の声優スクール</title>
+  <meta name="description" content="クリエイティブブランド【Twin Devil】直属の声優スクール。入校には選抜審査あり。オンラインのマンツーマンレッスンで、実力向上を最優先にした声優養成を行っています。">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif;
+      background: linear-gradient(160deg, #e8f4fd 0%, #f0f9ff 40%, #dbeeff 100%);
+      color: #1a3a5c;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    body::before, body::after {
+      content: '';
+      position: fixed;
+      border-radius: 50%;
+      opacity: 0.15;
+      pointer-events: none;
+    }
+    body::before {
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, #7ec8e3, transparent);
+      top: -100px;
+      right: -100px;
+    }
+    body::after {
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle, #b3d9f2, transparent);
+      bottom: -80px;
+      left: -80px;
+    }
+
+    .container {
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .brand {
+      font-size: 12px;
+      color: #6aaed6;
+      margin-bottom: 10px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1a3a5c;
+      margin-bottom: 14px;
+      letter-spacing: 0.05em;
+      line-height: 1.5;
+    }
+
+    .desc {
+      font-size: 13px;
+      color: #4a7a9b;
+      line-height: 1.9;
+      margin-bottom: 36px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .link-btn {
+      display: block;
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(126, 200, 227, 0.4);
+      border-radius: 16px;
+      padding: 16px 22px;
+      text-decoration: none;
+      color: #1a3a5c;
+      transition: all 0.25s ease;
+      box-shadow: 0 2px 12px rgba(100, 180, 220, 0.12);
+    }
+
+    .link-btn:hover {
+      background: rgba(255, 255, 255, 0.95);
+      border-color: rgba(100, 180, 220, 0.7);
+      box-shadow: 0 4px 20px rgba(100, 180, 220, 0.25);
+      transform: translateY(-2px);
+    }
+
+    .link-btn .title {
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 4px;
+      color: #1a3a5c;
+    }
+
+    .link-btn .sub {
+      font-size: 12px;
+      color: #6aaed6;
+    }
+
+    .footer {
+      margin-top: 44px;
+      font-size: 11px;
+      color: #9fc8e0;
+    }
+
+    .butterfly {
+      position: fixed;
+      font-size: 18px;
+      opacity: 0.18;
+      pointer-events: none;
+      animation: float 6s ease-in-out infinite;
+    }
+    .butterfly:nth-child(1) { top: 10%; left: 8%; animation-delay: 0s; }
+    .butterfly:nth-child(2) { top: 20%; right: 10%; animation-delay: 1.5s; }
+    .butterfly:nth-child(3) { bottom: 25%; left: 5%; animation-delay: 3s; }
+    .butterfly:nth-child(4) { bottom: 15%; right: 8%; animation-delay: 4.5s; }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px) rotate(-10deg); }
+      50% { transform: translateY(-12px) rotate(10deg); }
+    }
+  </style>
+</head>
+<body>
+  <span class="butterfly">🦋</span>
+  <span class="butterfly">🦋</span>
+  <span class="butterfly">🦋</span>
+  <span class="butterfly">🦋</span>
+
+  <div class="container">
+    <p class="brand">Twin Devil presents</p>
+    <h1>オンライン特化型の声優スクール【メイクリ】</h1>
+    <p class="desc">
+      クリエイティブブランド【Twin Devil】直属の声優スクール。<br>
+      入校には選抜審査あり。<br>
+      オンラインのマンツーマンレッスンで、実力向上を最優先にした声優養成を行っています。<br>
+      優秀者はドラマCDやゲーム作品に出演できることも。
+    </p>
+    <div class="links">
+      <a class="link-btn" href="https://made-create.com/" target="_blank" rel="noopener">
+        <div class="title">メイクリ公式サイト</div>
+        <div class="sub">公式サイトをチェック</div>
+      </a>
+      <a class="link-btn" href="https://lin.ee/8kJmYU9" target="_blank" rel="noopener">
+        <div class="title">メイクリ選抜審査LINE</div>
+        <div class="sub">入校相談・審査申込みはこちら</div>
+      </a>
+      <a class="link-btn" href="https://note.com/made_create" target="_blank" rel="noopener">
+        <div class="title">メイクリ公式note</div>
+        <div class="sub">【声優業界のリアル】や【女声】の情報を発信</div>
+      </a>
+      <a class="link-btn" href="https://made-create.com/aimai/" target="_blank" rel="noopener">
+        <div class="title">AIMAI公式サイト</div>
+        <div class="sub">女声・男の娘特化スクール（メイクリの姉妹校）</div>
+      </a>
+      <a class="link-btn" href="https://twindevil.jp/" target="_blank" rel="noopener">
+        <div class="title">Twin Devil 公式サイト</div>
+        <div class="sub">クリエイティブブランド公式</div>
+      </a>
+    </div>
+    <p class="footer">© メイクリ / Twin Devil</p>
+  </div>
+</body>
+</html>
